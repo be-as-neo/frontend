@@ -1,5 +1,9 @@
 import s from "./snakeLayer.module.css"
 import groundGrass from "./../../img/2.png"
+import body from "./../../img/Rectangle 377.png"
+import head from "./../../img/Mask Group.png"
+import footer from "./../../img/Rectangle 378.png"
+
 const GroundLayer = () => {
     return(
         <div className = {s.mainContainer}>
@@ -11,8 +15,13 @@ const GroundLayer = () => {
                     Score: 0
                 </div>
                 <div>
-                    <img src = {groundGrass} alt = "groundGrass"/>
+                    <img class = {s.groundArea} src = {groundGrass} alt = "groundGrass"/>
                 </div>
+                    <div class = {s.snakeContainer}>
+                        <img class = {s.snakeFooter} id="top" src={footer}/>
+                        <img class = {s.snakeBody} id="top" src={body} />
+                        <img class = {s.snakeHead} id="top" src= {head}/>
+                    </div>
             </div>
         </div>
     )

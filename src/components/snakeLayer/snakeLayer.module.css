@@ -9,8 +9,12 @@
     margin-left: 10px;
     font-size: 40px;
 }
+.snakeContainer{
+    position:relative;
+}
 
-.containerGroundScore img {
+.groundArea {
+    /* position: absolute; */
     margin-left: 10px;
     height: 776px;
     width: 826px;
