@@ -1,0 +1,45 @@
+.containerGroundScore{
+    display: flex;
+    flex-direction: column;
+    max-width: 840px;
+}
+
+.score{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 40px;
+}
+.snakeContainer{
+    position:relative;
+}
+
+.groundArea {
+    /* position: absolute; */
+    margin-left: 10px;
+    height: 776px;
+    width: 826px;
+    border: solid 15px rgb(37, 34, 44);
+    border-radius: 10px;
+}
+
+.mainContainer{
+    font-family: 'Shippori Antique', sans-serif;
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: space-around;
+}
+
+.textArea{
+    margin: 5px;
+    width: 800px;
+    height: 900px;
+    background: rgb(37, 34, 44);
+    color: rgb(219, 112, 252);
+    border-radius: 10px;
+    resize: none;
+}
+
+.programmingArea{
+    display: flex;
+
+}
