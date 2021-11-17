@@ -4,9 +4,7 @@ const GroundLayer = () => {
     return(
         <div className = {s.mainContainer}>
             <div className = {s.programmingArea}>
-                <textarea className = {s.textArea} placeholder = "Write code and play" >
-
-                </textarea>
+                <textarea className = {s.textArea} placeholder = "Write code and play" ></textarea>
             </div>
             <div className = {s.containerGroundScore}>
                 <div className = {s.score}>

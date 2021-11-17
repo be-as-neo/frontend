@@ -32,6 +32,7 @@
     background: rgb(37, 34, 44);
     color: rgb(219, 112, 252);
     border-radius: 10px;
+    resize: none;
 }
 
 .programmingArea{
